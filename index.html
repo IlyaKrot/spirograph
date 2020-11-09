@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Spirograph</title>
+</head>
+<body>
+  <div class="container">
+    <div class="cnv-wrap">
+      <canvas id="c1" class="canvas" width="600" height="600"></canvas>
+    </div>
+    <div class="options">
+      <p>Большой радиус</p>
+      <input type="range" id="big-radius" value="180" min="1" max="200">
+      <p class="value-out"></p>
+      <hr>
+      <p>Маленький радиус</p>
+      <input type="range"  id="small-radius" value="80" min="1" max="200">
+      <p class="value-out"></p>
+      <hr>
+      <p>Диаметр</p>
+      <input type="range"  id="distance" value="125" min="1" max="200">
+      <p class="value-out"></p>
+      <hr>
+      <p>Угол</p>
+      <input type="range"  id="angle" value="5" min="1" max="50">
+      <p class="value-out"></p>
+      <hr>
+      <button id="start" class="button">Старт / Стоп</button>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
