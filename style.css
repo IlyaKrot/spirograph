@@ -45,3 +45,7 @@ body {
 .button:active {
   box-shadow: 0 0 0 0 gray;
 }
+
+.select {
+  border: 1px solid red;
+}
