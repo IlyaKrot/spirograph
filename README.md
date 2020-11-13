@@ -1,4 +1,4 @@
-# spirograph
+# Spirograph
 
 Spirograph animation with Canvas
 
